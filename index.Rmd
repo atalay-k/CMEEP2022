@@ -1,0 +1,82 @@
+---
+title: "`r emo::ji('stats')`PISA Türkiye Verilerinde Sosyoekonomik Düzey ile Başarı Arasındaki İlişkinin İncelenmesi"
+author: "Mehmet Can Demir <br/> Kübra Atalay Kabasakal <br/> Murat Doğan Şahin" 
+date: "Eylül 2022 - Ege Üniversitesi"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["xaringan-themer.css", "slides-style.css"]
+    nature:
+      highlightStyle: solarized-light
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="my-logo-right"></div>
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+---
+
+<!-- options(download.file.method="libcurl") -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+options(digits=3)
+library(dplyr)
+library(tidyverse)
+library(dplyr)
+library(tuev)
+library(emo)
+library(knitr)
+
+```
+
+
+<br>
+<br>
+.center[
+
+##  `r fontawesome::fa(name = "handshake")`: Kübra Atalay Kabasakal
+<br>
+--
+<br>
+
+##  `r emo::ji("mail")`: [katalay@hacettepe.edu.tr](https://avesis.hacettepe.edu.tr/katalay)
+<br>
+--
+<br>
+]
+
+---
+## Problem Durumu
+
+---
+## Yöntem
+
+---
+## Bulgular
+
+```{r echo=FALSE, fig.align='center',out.width="60%"}
+knitr::include_graphics("img/z_ESCS_plotly.png")
+```
+
+---
+.center[
+<br>
+<br>
+<br>
+
+.hand[Teşekkürler]
+
+`r emo::ji("thanks")`
+ 
+]
+
+
+
