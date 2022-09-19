@@ -35,29 +35,73 @@ library(tuev)
 library(emo)
 library(knitr)
 
+
+
 ```
 
 
+```{r include=FALSE}
+source("ESCS-ACHgraf_3.R", echo=TRUE, local = knitr::knit_global())
+
+
+```
+
+
+.pull-left[
 <br>
 <br>
-.center[
 
 ##  `r fontawesome::fa(name = "handshake")`: Kübra Atalay Kabasakal
 <br>
---
+
 <br>
 
 ##  `r emo::ji("mail")`: [katalay@hacettepe.edu.tr](https://avesis.hacettepe.edu.tr/katalay)
 <br>
---
+]
+
+.pull-right[
+<br>
+<br>
+
+
+##  `r fontawesome::fa(name = "handshake")`: Kübra Atalay Kabasakal
+<br>
+<br>
+
+##  `r emo::ji("mail")`: [katalay@hacettepe.edu.tr](https://avesis.hacettepe.edu.tr/katalay)
 <br>
 ]
+
 
 ---
 ## Problem Durumu
 
+- bu araştırmada....
+
+--
+
+--
+
+ calisamada
+
+
+
 ---
 ## Yöntem
+
+
+- PISA verisi
+
+--
+
+
+---
+## Karar Agacı
+
+```{r}
+
+```
 
 ---
 ## Bulgular
@@ -65,6 +109,12 @@ library(knitr)
 ```{r echo=FALSE, fig.align='center',out.width="60%"}
 knitr::include_graphics("img/z_ESCS_plotly.png")
 ```
+
+
+```{r echo=FALSE}
+PV_plotly18
+```
+
 
 ---
 .center[
