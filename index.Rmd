@@ -101,7 +101,7 @@ source("ESCS-ACHgraf_3.R", echo=TRUE, local = knitr::knit_global())
 
 
 
-```{r echo=FALSE, fig.align='center',out.width="120%"}
+```{r echo=FALSE, fig.align='center',out.width="100%"}
 knitr::include_graphics("img/byyear2.png")
 ```
 
